@@ -14,9 +14,49 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+#canvas {
+  height: 800px;
+  background-color: grey;
+  margin: 0 20%;
+  text-align: center;
+}
+
+.header {
+  font-size: 100px;
+}
+
+#list-area {
+  margin: 0 10%;
+  height: 500px;
+  background-color: white;
+}
+
+#what {
+  margin-top: 30px;
+  width: 700px;
+  height: 60px;
+  color: black;
+  font-size: 30px;
+  outline-color: black;
+}
+
+input::placeholder {
+  font-size: 30px;
+  text-align: center;
+}
+
+#to-do-list {
+  position: absolute;
+  top: 370px;
+  left: 660px;
+  height: 300px;
+  width: 600px;
+  font-size: 25px;
+}
+
+.line {
+  text-decoration: line-through;
 }
